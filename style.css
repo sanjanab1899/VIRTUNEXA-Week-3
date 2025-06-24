@@ -1,0 +1,62 @@
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+  background: #fff8dc;
+  text-align: center;
+  padding: 50px;
+}
+
+.game-container {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+
+h1 {
+  color: #e76f51;
+}
+
+.problem {
+  font-size: 2rem;
+  margin: 20px 0;
+  color: #264653;
+}
+
+input {
+  font-size: 1.5rem;
+  padding: 10px;
+  width: 100px;
+  border: 2px solid #e76f51;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #e76f51;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.score {
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
